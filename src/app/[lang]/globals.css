@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply rounded-xl bg-secondary-main;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply rounded-xl bg-primary-main transition-colors;
+}
+
+.featured-label {
+  background: linear-gradient(
+    93deg,
+    #ba0000 16.05%,
+    rgba(186, 0, 0, 0.58) 65.68%,
+    rgba(186, 0, 0, 0.83) 88.25%,
+    rgba(186, 0, 0, 0) 112.31%
+  );
+}
+
+.propertyPage-featured-label {
+  background: linear-gradient(93deg, #ba0000 15.64%, #e41111 104.17%);
+}
+
+.range-slider {
+  @apply flex h-1 w-full items-center rounded-full bg-secondary-main;
+}
+
+.range-slider .range {
+  @apply bg-primary-main;
+}
+
+.range-slider .thumb {
+  @apply h-4 w-4 cursor-pointer rounded-full bg-primary-main;
+}
+
+.range-slider .track-1 {
+  @apply h-1 rounded-full bg-primary-main;
+}
+
+section {
+  @apply relative mx-auto max-w-[1600px] select-none;
+}
+
+.with-inputs input {
+  @apply bg-[#F2F2F2] transition-all duration-500 focus:bg-white;
+}
+
+.swiper {
+  height: 100% !important;
+}

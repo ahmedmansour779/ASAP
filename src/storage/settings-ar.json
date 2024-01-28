@@ -1,0 +1,83 @@
+{
+  "settings": {
+    "general": {
+      "projectName": "ASAPEG",
+      "description": "ASAPEG موقع متخصص في العقارات داخل مصر",
+      "about": "ASAPEG موقع متخصص في العقارات داخل مصر",
+      "brief": "",
+      "maintenanceMode": false,
+      "baseCurrency": {
+        "id": 3,
+        "name": "جنيه مصري",
+        "symbol": "E",
+        "code": "EGP",
+        "value": 1
+      },
+      "defaultCurrency": {
+        "id": 3,
+        "name": "جنيه مصري",
+        "symbol": "E",
+        "code": "EGP",
+        "value": 1
+      },
+      "favIcon": {
+        "name": "Fav Icon.webp",
+        "hash": "zo5yQlrhSwIYTA2f7MFDyk29qTeyoUJzzhZfJhVRbtktqHhSDun7OXHtzL2TukyV",
+        "mimeType": "image/webp",
+        "extension": "webp",
+        "size": 1596,
+        "url": "https://api.real-estate.mentoor.io/uploads/asapeg.com/13-12-2023/zo5yQlrhSwIYTA2f7MFDyk29qTeyoUJzzhZfJhVRbtktqHhSDun7OXHtzL2TukyV/Fav Icon.webp",
+        "id": "zo5yQlrhSwIYTA2f7MFDyk29qTeyoUJzzhZfJhVRbtktqHhSDun7OXHtzL2TukyV",
+        "width": 67,
+        "height": 67
+      },
+      "logo": {
+        "name": "logo.webp",
+        "hash": "3fQrkKOmGHGfLrwlqyD9ZRL3ZskjcSyLebEjxOkCeWCBQUyT9cPJ8FcwDCH0hbtB",
+        "mimeType": "image/webp",
+        "extension": "webp",
+        "size": 1646,
+        "url": "https://api.real-estate.mentoor.io/uploads//asapeg.com/13-12-2023/3fQrkKOmGHGfLrwlqyD9ZRL3ZskjcSyLebEjxOkCeWCBQUyT9cPJ8FcwDCH0hbtB/logo.webp",
+        "id": "3fQrkKOmGHGfLrwlqyD9ZRL3ZskjcSyLebEjxOkCeWCBQUyT9cPJ8FcwDCH0hbtB",
+        "width": 183,
+        "height": 102
+      }
+    },
+    "contact": {
+      "email": "info@asapeg.com",
+      "phoneNumber": "+20114451112",
+      "address": "",
+      "workingDays": ""
+    },
+    "properties": {
+      "displayAgentOnCard": true
+    },
+    "integrations": {
+      "googleMap": "AIzaSyB6CG5NCDjqc5nfbzrZ-j71LvtO_509kHA",
+      "googleMapCountry": "Egypt"
+    }
+  },
+  "currencies": [
+    {
+      "id": 3,
+      "name": "جنيه مصري",
+      "symbol": "E",
+      "code": "EGP",
+      "value": 1
+    },
+    {
+      "id": 2,
+      "name": "يورو",
+      "symbol": "€",
+      "code": "E",
+      "value": 0.03
+    },
+    {
+      "id": 1,
+      "name": "دولار أمريكي",
+      "symbol": "$",
+      "code": "USD",
+      "value": 0.032
+    }
+  ]
+}
